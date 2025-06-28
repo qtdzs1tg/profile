@@ -11,7 +11,7 @@ function Home() {
         <div className={styles.grid}>
           {IsNotMobile() && (
             <div className={styles.column3}>
-              <a href="#" download className={styles.btn}>
+              <a href="#download" download className={styles.btn}>
                 <span>
                   Download
                   <br />
@@ -27,7 +27,7 @@ function Home() {
               <h4 className={styles.desc}>PHP Developer</h4>
             </div>
             <div className={styles.btn__wrap}>
-              <a href="" className={styles}></a>
+              <a href="#contact" className={styles}>Contact Me</a>
             </div>
             <div className={styles.img__wrap}>
               <img src="img/IMG_20221212_120823.jpg" alt="IMG_20221212_120823.jpg" className={styles.img} />

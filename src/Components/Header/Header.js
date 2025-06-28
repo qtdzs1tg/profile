@@ -41,6 +41,7 @@ function Header() {
                 src="img/bg-1.jpg"
                 className={styles.video__item}
                 data-vid="video1"
+                alt="Background theme 1"
               ></img>
             </li>
             <li onClick={vidContext.handleVideo} className={styles.item}>
@@ -48,6 +49,7 @@ function Header() {
                 src="img/bg-2.jpg"
                 className={styles.video__item}
                 data-vid="video2"
+                alt="Background theme 2"
               ></img>
             </li>
            <li onClick={vidContext.handleVideo} className={styles.item}>
@@ -55,6 +57,7 @@ function Header() {
                 src="img/bg-3.jpg"
                 className={styles.video__item}
                 data-vid="video3"
+                alt="Background theme 3"
               ></img>
             </li>
           <li onClick={vidContext.handleVideo} className={styles.item}>
@@ -62,6 +65,7 @@ function Header() {
                 src="img/bg-4.jpg"
                 className={styles.video__item}
                 data-vid="video4"
+                alt="Background theme 4"
               ></img>
             </li>
           </ul>
